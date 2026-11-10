@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nexora Tech — desenvolvimento web, automação Python e suporte de TI. Tecnologia sem limites.">
+  <meta name="theme-color" content="#10101b">
+  <title>Nexora Tech — Tecnologia sem limites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Nexora Tech início">
+      <span class="brand-mark">N</span><span>NEXORA<span class="accent">TECH</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#servicos" data-i18n="navServices">Serviços</a>
+      <a href="#sobre" data-i18n="navAbout">Sobre</a>
+      <a href="#contato" data-i18n="navContact">Contato</a>
+    </nav>
+    <button class="language-button" id="languageToggle" type="button" aria-label="Switch language">EN</button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse"></span><span data-i18n="eyebrow">TECNOLOGIA • CRIATIVIDADE • SOLUÇÕES</span></span>
+        <h1 data-i18n="heroTitle">Ideias inteligentes.<br><span class="gradient-text">Soluções digitais.</span></h1>
+        <p class="hero-description" data-i18n="heroDescription">A Nexora Tech transforma necessidades em soluções digitais práticas — de sites e sistemas a automações e suporte de TI.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contato" data-i18n="heroCta">Fale com a gente <span>↗</span></a>
+          <a class="button button-quiet" href="#servicos" data-i18n="heroSecondary">Conheça os serviços</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span data-i18n="heroNote">Atendimento a projetos no Brasil e em outros lugares.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Nexora Tech, tecnologia sem limites">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="art-glow"></div>
+        <div class="big-n">N</div>
+        <div class="art-caption"><span class="caption-dot"></span><span data-i18n="artCaption">TECNOLOGIA SEM LIMITES</span></div>
+        <div class="floating-card card-code"><span class="mini-icon">&lt;/&gt;</span><span>WEB<br>DEV</span></div>
+        <div class="floating-card card-python"><span class="mini-icon">Py</span><span>PYTHON<br>AUTOMATION</span></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+      </div>
+    </section>
+
+    <section class="services section-wrap" id="servicos">
+      <div class="section-heading">
+        <span class="eyebrow" data-i18n="servicesEyebrow">O QUE FAZEMOS</span>
+        <h2 data-i18n="servicesTitle">Tecnologia que trabalha <span class="gradient-text">a seu favor.</span></h2>
+        <p data-i18n="servicesDescription">Soluções pensadas para simplificar tarefas, fortalecer sua presença digital e resolver problemas do dia a dia.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-icon">&lt;/&gt;</div><h3 data-i18n="service1Title">Desenvolvimento web</h3><p data-i18n="service1Text">Sites responsivos e páginas profissionais para apresentar seu negócio na internet.</p><span class="card-index">01</span></article>
+        <article class="service-card"><div class="service-icon">Py</div><h3 data-i18n="service2Title">Automação com Python</h3><p data-i18n="service2Text">Pequenas automações para reduzir tarefas repetitivas e organizar processos.</p><span class="card-index">02</span></article>
+        <article class="service-card"><div class="service-icon">⌘</div><h3 data-i18n="service3Title">Suporte de TI</h3><p data-i18n="service3Text">Ajuda com configuração, manutenção e resolução de problemas em computadores.</p><span class="card-index">03</span></article>
+        <article class="service-card"><div class="service-icon">◇</div><h3 data-i18n="service4Title">Soluções digitais</h3><p data-i18n="service4Text">Apoio na escolha e configuração de ferramentas digitais adequadas à sua necessidade.</p><span class="card-index">04</span></article>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="sobre">
+      <div class="about-mark">N<span>.</span></div>
+      <div class="about-copy">
+        <span class="eyebrow" data-i18n="aboutEyebrow">SOBRE A NEXORA TECH</span>
+        <h2 data-i18n="aboutTitle">Pequena no começo.<br><span class="gradient-text">Grande nas ideias.</span></h2>
+        <p data-i18n="aboutText">Somos uma iniciativa independente de tecnologia com foco em soluções úteis, comunicação clara e evolução constante. Cada projeto começa entendendo o que você precisa — e termina com uma solução construída com cuidado.</p>
+        <div class="values"><span data-i18n="value1">✦ Atendimento próximo</span><span data-i18n="value2">✦ Soluções práticas</span><span data-i18n="value3">✦ Aprendizado contínuo</span></div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contato">
+      <div class="contact-panel">
+        <div>
+          <span class="eyebrow" data-i18n="contactEyebrow">VAMOS CONVERSAR?</span>
+          <h2 data-i18n="contactTitle">Tem uma ideia?<br><span class="gradient-text">Vamos tirar do papel.</span></h2>
+          <p data-i18n="contactText">Conte um pouco sobre o que você precisa. Vamos conversar sobre a melhor forma de começar.</p>
+        </div>
+        <a class="button button-primary email-button" href="mailto:nexoratechservicos4@gmail.com">nexoratechservicos4@gmail.com <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">N</span><span>NEXORA<span class="accent">TECH</span></span></a>
+    <p data-i18n="footerText">Tecnologia sem limites.</p>
+    <span>© <span id="year"></span> Nexora Tech</span>
+  </footer>
+</body>
+</html>
